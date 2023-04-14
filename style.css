@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
 
-  color: black;
+  color: purple;
   width: 100%;
   padding: 5px;
 }
@@ -9,6 +9,10 @@ img {
   width: 100vw;
   object-fit: cover;
 }
+
+/* .carousel-indicators button {
+  background-color: red;
+} */
 
 .carousel-item {
   width: 100%;
@@ -18,5 +22,5 @@ img {
   margin: 20px auto;
   width: 100%;
   background-color: grey;
-  opacity: 70%;
+  opacity: 80%;
 }

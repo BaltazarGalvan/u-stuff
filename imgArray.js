@@ -13,7 +13,7 @@ const imgArray = [
     name: "Maceteros",
     description: "Impregnados con aceite mineral",
     class: "carousel-item",
-    source: "./images/Prod1.jpg",
+    source: "./images/Prod1.JPG",
     altText: "Macetero",
     buttonClass: "",
     buttonAriaCurrent: "",

@@ -146,3 +146,8 @@ h5 {
   text-align: left;
   font-size: 3vw;
 }
+
+#us-description h5 {
+  text-align: left;
+  padding: 10px;
+}

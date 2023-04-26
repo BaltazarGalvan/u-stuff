@@ -27,7 +27,7 @@ imgArray.forEach((carouselImg, index) => {
   carouselInnerHTML =
     carouselInnerHTML +
     `<div class="${carouselImg.class}">
-          <img src="${carouselImg.source}" alt="${carouselImg.altText}" loading="lazy"/>
+          <img src="${carouselImg.source}" alt="${carouselImg.altText}"/>
           <div class="carousel-caption text-start">
             <h4>${carouselImg.name}</h4>
             <p>${carouselImg.description}</p>

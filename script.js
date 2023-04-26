@@ -11,7 +11,6 @@ document.querySelector("#navbarSideCollapse").addEventListener("click", () => {
 });
 
 imgArray.forEach((carouselImg, index) => {
-  console.log(carouselImg.nombre);
   carouselIndicatorsHTML =
     carouselIndicatorsHTML +
     `<button

@@ -5,26 +5,30 @@ body {
 header {
   background-color: black;
 }
-h1 {
+
+h1,
+h4,
+h5 {
   font-family: var(--bs-body-font-family);
+}
+
+h1,
+h5 {
   font-weight: 100;
 }
 h4 {
-  font-family: var(--bs-body-font-family);
   font-weight: 200;
   font-size: 4.5vw;
 }
 
 h5 {
-  font-family: var(--bs-body-font-family);
-  font-weight: 100;
   font-size: 4vw;
 }
 
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 56px; /* Height of navbar */
+    top: 56px;
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -42,21 +46,23 @@ h5 {
 }
 
 .carousel-caption {
-  width: 30%;
-  margin-left: 40%;
-  padding-left: 20px;
+  position: absolute;
+  display: grid;
+  align-items: center;
+  margin: 0;
+  padding: 0 0 0 15px;
+  left: 10%;
+  top: 5px;
+  width: 80%;
+  height: 25%;
   color: white;
   background-color: black;
-  opacity: 60%;
+  opacity: 70%;
 }
 
 .carousel-caption p {
   font-weight: 250;
   font-size: 3vw;
-}
-
-.carousel-caption > * {
-  padding-right: 20px;
 }
 
 .carousel-item {

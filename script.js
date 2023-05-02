@@ -1,13 +1,18 @@
 const carouselIndicators = document.querySelector(".carousel-indicators");
 const carouselInner = document.querySelector(".carousel-inner");
-
+const offCanvasCollapse = document.querySelector(".offcanvas-collapse");
 import imgArray from "./imgArray.js";
 
 let carouselInnerHTML = "";
 let carouselIndicatorsHTML = "";
 
 document.querySelector("#navbarSideCollapse").addEventListener("click", () => {
-  document.querySelector(".offcanvas-collapse").classList.toggle("open");
+  offCanvasCollapse.classList.toggle("open");
+});
+
+document.querySelector(".navbar-nav").addEventListener("click", () => {
+  if (offCanvasCollapse.classList.contains("open"))
+    offCanvasCollapse.classList.toggle("open");
 });
 
 imgArray.forEach((carouselImg, index) => {
